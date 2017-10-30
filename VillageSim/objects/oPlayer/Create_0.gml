@@ -1,8 +1,16 @@
 ///Starting Variables
 
+///Controls
 upControl = ord("W");
 downControl = ord("S");
 leftControl = ord("A");
 rightControl = ord("D");
 
-playerSpeed = 15;
+
+///Misc
+moveSpeed = 8;
+
+currentTileRow = 0;
+currentTileColumn = 0;
+
+CurrentPlayerTile();

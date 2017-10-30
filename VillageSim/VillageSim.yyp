@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "316c1e18-6d57-46e3-9119-aa947d00b348",
+            "Value": {
+                "id": "3cd169e4-ef31-4bef-91d7-0e5ec335161f",
+                "resourcePath": "scripts\\CurrentPlayerTile\\CurrentPlayerTile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "47a8144f-4ff5-4a54-adc3-2c8dab1f67ba",
             "Value": {
                 "id": "4c83c22d-0d6a-4ec2-9adc-5a7af7cffcac",
@@ -71,11 +79,19 @@
             }
         },
         {
-            "Key": "6d4dd007-04f0-4201-b68e-4930e3e56976",
+            "Key": "6b846950-ec8b-41dc-83d3-7ac6493935f6",
             "Value": {
-                "id": "71b43114-63e4-4c38-a499-735bba0b6280",
-                "resourcePath": "rooms\\rMainArea\\rMainArea.yy",
-                "resourceType": "GMRoom"
+                "id": "b2c16a40-5ae5-48ef-ad34-9a9bd4df4611",
+                "resourcePath": "objects\\oCreateTown\\oCreateTown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "70a7587e-deef-4ca6-944b-072fddada5f4",
+            "Value": {
+                "id": "bbeadf15-2373-4218-9864-77d512c0c5bd",
+                "resourcePath": "objects\\oTownGeneration\\oTownGeneration.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -143,6 +159,14 @@
             }
         },
         {
+            "Key": "a8e1569b-b6ac-4d53-82ee-18651ba8d6a0",
+            "Value": {
+                "id": "54ef08e9-f789-4470-86d7-98a08c77a127",
+                "resourcePath": "rooms\\rLoading\\rLoading.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "cf47d6c0-2e8e-47d4-8979-e7b61e73276b",
@@ -191,19 +215,19 @@
             }
         },
         {
-            "Key": "d0d403c1-d78f-42b2-8d35-1006290eedb7",
-            "Value": {
-                "id": "bc8f68af-ba13-488a-bbd0-e77c7eefd86f",
-                "resourcePath": "sprites\\sPlayerIdle\\sPlayerIdle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d69574d9-833b-48e5-9bac-391592f07056",
             "Value": {
                 "id": "4555c9e4-2c81-46f6-8a00-3c914f72081b",
                 "resourcePath": "views\\d69574d9-833b-48e5-9bac-391592f07056.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e3da17f9-a2f2-4532-a849-1fe30e52a069",
+            "Value": {
+                "id": "3417cfef-2a21-4398-bcb4-b95156b23309",
+                "resourcePath": "objects\\oDev\\oDev.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -232,7 +256,7 @@
         }
     ],
     "script_order": [
-        
+        "316c1e18-6d57-46e3-9119-aa947d00b348"
     ],
     "tutorial": ""
 }

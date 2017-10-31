@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0ed7edc2-718c-4a82-b7fb-d6c3326502f4",
+            "Value": {
+                "id": "7b399ea0-51fb-4c4a-b149-854f5eb37cc8",
+                "resourcePath": "objects\\oLoadTown\\oLoadTown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a60fe18-301f-4c2c-8aaa-813aed7beaa4",
             "Value": {
                 "id": "f4648025-9eda-4ec1-9f53-af315b2a0e88",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "8d99050c-f80d-4c52-a811-4515a7293d7a",
+            "Value": {
+                "id": "9491e7b2-ed1d-4b53-830b-a595c3cc5e1b",
+                "resourcePath": "objects\\oRebuildTown\\oRebuildTown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "904cb7d0-f24c-4f47-9602-e1d3b52867b0",
             "Value": {
                 "id": "ded967b5-2dd5-4dad-b6ec-58299a8a0c60",
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "ddfd7776-5b1a-40df-b2af-a613be934246",
+            "Value": {
+                "id": "c42e2b87-cc14-457b-955c-0d2e047308c9",
+                "resourcePath": "scripts\\HighlightPlaceableTiles\\HighlightPlaceableTiles.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e3da17f9-a2f2-4532-a849-1fe30e52a069",
             "Value": {
                 "id": "3417cfef-2a21-4398-bcb4-b95156b23309",
@@ -256,7 +280,8 @@
         }
     ],
     "script_order": [
-        "316c1e18-6d57-46e3-9119-aa947d00b348"
+        "316c1e18-6d57-46e3-9119-aa947d00b348",
+        "ddfd7776-5b1a-40df-b2af-a613be934246"
     ],
     "tutorial": ""
 }

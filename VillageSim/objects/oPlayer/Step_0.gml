@@ -5,14 +5,19 @@ if(keyboard_check(upControl)) {
 	
 	sprite_index = sPlayerWalkUp;
 	vspeed = -moveSpeed;
-		
+	
+	if(image_xscale < 0)
+		image_xscale *= -1;
 }
 
 //Down
-else if(keyboard_check(downControl)) {
+if(keyboard_check(downControl)) {
 
 	sprite_index = sPlayerWalkDown;
 	vspeed = moveSpeed;
+	
+	if(image_xscale < 0)
+		image_xscale *= -1;
 
 }
 
@@ -28,7 +33,7 @@ if(keyboard_check(leftControl)) {
 }
 
 //Right
-else if(keyboard_check(rightControl)) {
+if(keyboard_check(rightControl)) {
 
 	if(image_xscale < 0)
 		image_xscale *= -1;

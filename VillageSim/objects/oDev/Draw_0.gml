@@ -16,4 +16,7 @@ if(gridEnabled)	{
 		
 }
 
+if(keyboard_check_pressed(ord("H"))) {
+	game_save(working_directory + "save.dat")
+}
 

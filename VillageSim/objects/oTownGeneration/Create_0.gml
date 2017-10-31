@@ -1,6 +1,6 @@
 ///@description Creates the town for the first time
 
-terrainTileSize = 64; //Size of each tile
+terrainTileSize = global.tileSize; //Size of each tile
 terrainTilesWide = room_width/terrainTileSize; //How many tiles wide the room is
 terrainTilesHigh = room_height/terrainTileSize; //How many tiles high the room is
 
@@ -27,5 +27,3 @@ for(var i = 0; i < terrainTilesHigh; i++) //For every column
 		ds_grid_add(terrainGrid, i, j, counter);	
 		counter++;
 	}
-
-instance_create_depth(room_width/2, room_height/2, 0, oPlayer); //Spawn the player in the center

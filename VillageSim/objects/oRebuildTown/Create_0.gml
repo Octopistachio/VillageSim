@@ -1,4 +1,4 @@
-///@description This is run the first time the game is played
+/// @description This is run every time after oCreateTown
 
 var playerSpawn_x = global.mainTownWidth/2;
 var playerSpawn_y = global.mainTownHeight/2;

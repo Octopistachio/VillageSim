@@ -36,3 +36,5 @@ else if(oPlayer.sprite_index == sPlayerWalkSide) { //If the player is looking le
 draw_set_alpha(0.5);
 draw_set_color(c_green);
 draw_rectangle(currentCell_bottomLeft_x, currentCell_bottomLeft_y, currentCell_topRight_x, currentCell_topRight_y, false);
+
+draw_set_alpha(1);

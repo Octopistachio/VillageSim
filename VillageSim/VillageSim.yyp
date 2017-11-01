@@ -31,10 +31,34 @@
     },
     "resources": [
         {
+            "Key": "01e5bbae-989b-45c8-9bba-4d5bddebbf8e",
+            "Value": {
+                "id": "72eb3a04-7742-47be-87d9-41ebbf6ff1a8",
+                "resourcePath": "views\\01e5bbae-989b-45c8-9bba-4d5bddebbf8e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "06b496d8-a1a5-40ea-8ec1-3e1c7b8a7057",
+            "Value": {
+                "id": "40559241-8eb6-4cad-863d-344de49d2cee",
+                "resourcePath": "sprites\\sGrassTile\\sGrassTile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ed7edc2-718c-4a82-b7fb-d6c3326502f4",
             "Value": {
                 "id": "7b399ea0-51fb-4c4a-b149-854f5eb37cc8",
                 "resourcePath": "objects\\oLoadTown\\oLoadTown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1681b5f0-19fa-4f26-8bb9-1ad039da8b71",
+            "Value": {
+                "id": "9ad51a3f-16f9-42a8-91cd-00b88090c7d2",
+                "resourcePath": "objects\\oGrassTile\\oGrassTile.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -55,6 +79,14 @@
             }
         },
         {
+            "Key": "3463f01c-120b-4034-b196-332554770460",
+            "Value": {
+                "id": "599be9fe-61e7-497f-b522-9746b245bade",
+                "resourcePath": "views\\3463f01c-120b-4034-b196-332554770460.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "47a8144f-4ff5-4a54-adc3-2c8dab1f67ba",
             "Value": {
                 "id": "4c83c22d-0d6a-4ec2-9adc-5a7af7cffcac",
@@ -68,6 +100,14 @@
                 "id": "17695165-0ea9-4184-b6cd-58508936c3e9",
                 "resourcePath": "views\\52eab9f3-17cf-4f7c-9db5-dca0735df528.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5515758f-775f-493e-9cff-be54aa8d37bc",
+            "Value": {
+                "id": "bc6ce17c-2ba3-43a9-8cc0-05e323ccdbd1",
+                "resourcePath": "objects\\oTerrainTileParent\\oTerrainTileParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -107,6 +147,14 @@
             "Value": {
                 "id": "a9b256e1-20c2-4704-a51a-e7888f51e584",
                 "resourcePath": "views\\7699336d-7254-4414-a810-6bb2e23c7a30.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "76bf38a7-7353-42c9-85d1-8ae0c1827acd",
+            "Value": {
+                "id": "c3b2f015-f76b-4f8b-a3b5-546f8208448f",
+                "resourcePath": "views\\76bf38a7-7353-42c9-85d1-8ae0c1827acd.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -207,6 +255,14 @@
             }
         },
         {
+            "Key": "c40f8e25-b49d-4066-baff-0312ae1fe3d9",
+            "Value": {
+                "id": "2a9f8880-277f-47d7-ba8d-11f09223fc1f",
+                "resourcePath": "sprites\\sWaterTile\\sWaterTile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc00e376-92ab-40d5-a3f5-bdb512aafd58",
             "Value": {
                 "id": "1d9ce6cd-bef6-494f-8daa-041caeeee7e4",
@@ -255,6 +311,14 @@
             }
         },
         {
+            "Key": "f2b34cb6-8dfe-4a3d-8c12-5588da3e7b7d",
+            "Value": {
+                "id": "b7be2f4b-34c6-4357-8047-b6cb05eed052",
+                "resourcePath": "views\\f2b34cb6-8dfe-4a3d-8c12-5588da3e7b7d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "641ff89c-8088-4dda-88e8-35ca535d9d76",
@@ -263,11 +327,27 @@
             }
         },
         {
+            "Key": "f55d4e05-2363-4b17-a0ed-406a67cc4ddd",
+            "Value": {
+                "id": "39b5914b-e997-4b65-b017-95b397b24f19",
+                "resourcePath": "scripts\\ChooseWater\\ChooseWater.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa7a6144-2a37-46bb-a1eb-76d42d97a102",
             "Value": {
                 "id": "26fc2663-8f22-41d5-a1ed-e27af8924609",
                 "resourcePath": "views\\fa7a6144-2a37-46bb-a1eb-76d42d97a102.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fbe4d7b7-da1f-4de4-9ed2-ddbeea995783",
+            "Value": {
+                "id": "989446cf-9a80-4085-90c2-9964729b860e",
+                "resourcePath": "objects\\oWaterTile\\oWaterTile.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -281,7 +361,8 @@
     ],
     "script_order": [
         "316c1e18-6d57-46e3-9119-aa947d00b348",
-        "ddfd7776-5b1a-40df-b2af-a613be934246"
+        "ddfd7776-5b1a-40df-b2af-a613be934246",
+        "f55d4e05-2363-4b17-a0ed-406a67cc4ddd"
     ],
     "tutorial": ""
 }

@@ -1,5 +1,25 @@
 ///Movement code
 
+//Check if outside the room
+if(x <= 0) {
+    x += moveSpeed;
+	vspeed = 0; //Prevents sliding
+}
+else if(x >= room_width) {
+    x -= moveSpeed;
+	vspeed = 0; //Prevents sliding
+}
+if(y <= 0) {
+    y += moveSpeed;
+	hspeed = 0; //Prevents sliding
+}
+else if(y >= room_height) {
+    y -= moveSpeed;
+	hspeed = 0; //Prevents sliding
+}
+
+CurrentPlayerTile();
+
 //Up
 if(keyboard_check(upControl)) {
 	
@@ -52,14 +72,3 @@ if(!keyboard_check(upControl) && !keyboard_check(downControl) &&
 
 }
 
-//Check if outside the room
-if(x <= 0)
-    hspeed = moveSpeed;
-else if(x >= room_width)
-    hspeed = -moveSpeed;
-if(y <= 0)
-    vspeed = moveSpeed;
-else if(y >= room_height)
-    vspeed = -moveSpeed;
-
-CurrentPlayerTile();

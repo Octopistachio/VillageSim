@@ -2,14 +2,18 @@
 
 global.tileSize = 64; //Size of each tile
 
-global.mainTownWidth = global.tileSize * 100; //Width of the town room
-global.mainTownHeight = global.tileSize * 100; //Height of the town room
+var roomTilesWide = 25; //Numbers of tiles wide/high the room is
+global.mainTownWidth = global.tileSize * roomTiles; //Width of the town room
+global.mainTownHeight = global.tileSize * roomTiles; //Height of the town room
 
 global.rMainTown = room_add(); //Create a the town room
 
 ini_open(working_directory + "town.ini");
 var townHasBeenCreated = ini_read_real("Town", "townHasBeenCreated", 0)
 ini_close();
+
+townHasBeenCreated = 0; //THIS IS FOR DEBUGGING
+file_delete(working_directory + "town.ini"); //THIS IS FOR DEBUGGING
 
 if(townHasBeenCreated != 1) { //If the town has not been created
 	

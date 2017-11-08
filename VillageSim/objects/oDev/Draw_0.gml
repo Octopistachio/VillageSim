@@ -5,6 +5,10 @@ if(keyboard_check_pressed(ord("G"))) {
 		gridEnabled = false;
 }
 
+if(keyboard_check_pressed(ord("H"))) {
+	instance_create_depth(mouse_x, mouse_y, -1, oApple);
+}
+
 if(gridEnabled)	{
 	draw_set_alpha(.5);
 	draw_set_color(c_white);

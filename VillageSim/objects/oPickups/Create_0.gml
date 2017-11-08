@@ -1,0 +1,1 @@
+moveSpeed = oPlayer.moveSpeed * 1.5;

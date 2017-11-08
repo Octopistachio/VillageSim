@@ -1,13 +1,13 @@
 {
-    "id": "fbe4d7b7-da1f-4de4-9ed2-ddbeea995783",
+    "id": "0cf377fb-7368-4ab7-82e4-47b243c61430",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWaterTile",
+    "name": "oApple",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "5515758f-775f-493e-9cff-be54aa8d37bc",
+    "parentObjectId": "29d9196d-fc49-4035-899b-ea51454d55e3",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -21,7 +21,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "solid": true,
-    "spriteId": "c40f8e25-b49d-4066-baff-0312ae1fe3d9",
+    "solid": false,
+    "spriteId": "1795a12c-e619-49fa-9503-a748f651bfee",
     "visible": true
 }

@@ -14,8 +14,16 @@ ini_close();
 
 instance_create_depth(0, 0, 0, oTownGeneration);
 
-//townHasBeenCreated = 0; //THIS IS FOR DEBUGGING
-//file_delete(working_directory + "town.ini"); //THIS IS FOR DEBUGGING
+townHasBeenCreated = 0; //THIS IS FOR DEBUGGING
+file_delete(working_directory + "town.ini"); //THIS IS FOR DEBUGGING
+
+room_set_width(global.rMainTown, global.mainTownWidth); //Set the width of the town room
+room_set_height(global.rMainTown, global.mainTownHeight); //Set the height of the town room
+room_set_persistent(global.rMainTown, false); //Make the town room not persistent
+
+room_instance_add(global.rMainTown, 0, 0, oInventory)
+room_instance_add(global.rMainTown, 0, 0, oDev)
+room_instance_add(global.rMainTown, 0, 0, oCamera)
 
 if(townHasBeenCreated != 1) { //If the town has not been created
 	
@@ -34,8 +42,6 @@ else {
 	instance_create_depth(0, 0, 0, oRebuildTown);
 }
 
-room_set_width(global.rMainTown, global.mainTownWidth); //Set the width of the town room
-room_set_height(global.rMainTown, global.mainTownHeight); //Set the height of the town room
-room_set_persistent(global.rMainTown, false); //Make the town room not persistent
+
 
 room_goto(global.rMainTown);

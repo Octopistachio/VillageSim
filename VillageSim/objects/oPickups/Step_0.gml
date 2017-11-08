@@ -14,3 +14,7 @@ if(instance_exists(oPlayer)) {
 	}
 
 }
+
+if(place_meeting(x, y, oWaterTile)) { //If the object is touching water
+	instance_destroy();	 //Destroy it
+}

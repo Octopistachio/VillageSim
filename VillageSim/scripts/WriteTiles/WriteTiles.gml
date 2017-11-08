@@ -17,11 +17,10 @@ for(var i = 0; i < oTownGeneration.terrainTilesHigh; i++) { //For each column in
 		if(ChooseWater(i, j, tilesHigh, tilesWide)) tile_obj = oWaterTile;
 
 		if(tile_obj != pointer_null) {
-			ini_open(working_directory + "town.ini");
-			ini_write_string("Terrain Tile Row " + string(i), "Terrain Tile Col " + string(j), object_get_name(tile_obj));
-			ini_close();
 			
-			show_debug_message("Writng to Key: Terrain Tile Row " + string(i) + " Section: Terrain Tile Col " + string(j) + " Name: " +  object_get_name(tile_obj));
+			ds_map_add(global.tiles_ds_map,string(i) + string(j), object_get_name(tile_obj));
+			
+			show_debug_message("Writing to Tile Row " + string(i) + " Tile Col " + string(j) + " Name: " +  object_get_name(tile_obj));
 		}
 		
 		

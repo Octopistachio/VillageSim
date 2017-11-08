@@ -1,5 +1,9 @@
 ///@description Runs when loading into main town
 
+///DS_Maps
+global.level_ds_map = ds_map_create(); //Holds all other maps
+global.tiles_ds_map = ds_map_create(); //The map of each tile
+
 global.tileSize = 64; //Size of each tile
 
 var roomTiles= 25; //Numbers of tiles wide/high the room is
@@ -8,14 +12,7 @@ global.mainTownHeight = global.tileSize * roomTiles; //Height of the town room
 
 global.rMainTown = room_add(); //Create a the town room
 
-ini_open(working_directory + "town.ini");
-var townHasBeenCreated = ini_read_real("Town", "townHasBeenCreated", 0)
-ini_close();
-
 instance_create_depth(0, 0, 0, oTownGeneration);
-
-townHasBeenCreated = 0; //THIS IS FOR DEBUGGING
-file_delete(working_directory + "town.ini"); //THIS IS FOR DEBUGGING
 
 room_set_width(global.rMainTown, global.mainTownWidth); //Set the width of the town room
 room_set_height(global.rMainTown, global.mainTownHeight); //Set the height of the town room
@@ -25,19 +22,21 @@ room_instance_add(global.rMainTown, 0, 0, oInventory)
 room_instance_add(global.rMainTown, 0, 0, oDev)
 room_instance_add(global.rMainTown, 0, 0, oCamera)
 
-if(townHasBeenCreated != 1) { //If the town has not been created
+if(!file_exists(working_directory + "level.dat")) { //If the town has not been created
 	
-	show_debug_message("Town.ini file not found!");
-	show_debug_message("Creating town.ini at: " + string(working_directory + "town.ini"));
-	
-	ini_open(working_directory + "town.ini");
-	ini_write_real("Town", "townHasBeenCreated", true);
-	ini_close();
+	show_debug_message("level.dat file not found!");
+	show_debug_message("Creating level.dat at: " + string(working_directory + "level.dat"));
 	
 	instance_create_depth(0, 0, 0, oCreateTown);
+	
+	ds_map_secure_save(global.level_ds_map, working_directory + "level.dat");
+	ds_map_add_map(global.level_ds_map, "tiles", global.tiles_ds_map); //Add the tiles map to the level map
 }
 else {
-	show_debug_message("Town.ini was found at: " + string(working_directory + "town.ini"));
+	show_debug_message("level.dat was found at: " + string(working_directory + "level.dat"));
+	
+	global.level_ds_map = ds_map_secure_load(working_directory + "level.dat");
+	global.tiles_ds_map = ds_map_find_value(global.level_ds_map, "tiles");
 	
 	instance_create_depth(0, 0, 0, oRebuildTown);
 }

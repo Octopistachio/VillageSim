@@ -1,9 +1,9 @@
 ///@description Runs when loading into main town
 
-///DS_Maps
+///DS Maps/Lists
 global.level_ds_map = ds_map_create(); //Holds all other maps
 global.tiles_ds_map = ds_map_create(); //The map of each tile
-global.inventory_ds_map = ds_map_create(); //All the items in the player's inventory
+global.inventory_ds_list = ds_list_create(); //All the items in the player's inventory
 
 global.tileSize = 64; //Size of each tile
 

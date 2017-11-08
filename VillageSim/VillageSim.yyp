@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "12fc802b-ea35-473a-9fa3-c3db4cbc6e3c",
+            "Value": {
+                "id": "ea29f17a-d423-48b8-b905-824fe40e17aa",
+                "resourcePath": "objects\\oOrange\\oOrange.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1681b5f0-19fa-4f26-8bb9-1ad039da8b71",
             "Value": {
                 "id": "9ad51a3f-16f9-42a8-91cd-00b88090c7d2",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "7ea59f9c-6727-4323-be50-bc5cff2f35f7",
+            "Value": {
+                "id": "35d5f786-bc71-4878-b3b5-393c45bff39f",
+                "resourcePath": "scripts\\AddToInventory\\AddToInventory.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "89040973-2849-40d5-8d19-cc10f89d8a25",
             "Value": {
                 "id": "547094cb-2db5-41bd-9c1a-0b07663f5b02",
@@ -308,6 +324,14 @@
                 "id": "a62f5554-352b-4f2c-a62e-577882d4ce4f",
                 "resourcePath": "scripts\\PlayerMovement\\PlayerMovement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "adcc01e1-090a-42e5-bfa9-5410fad91f13",
+            "Value": {
+                "id": "3a4f41bd-fb4c-4973-bbfe-ca5193cf29ab",
+                "resourcePath": "sprites\\sOrange\\sOrange.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -471,7 +495,8 @@
         "acf424e9-5a57-4687-8553-776c8e2a8f44",
         "316c1e18-6d57-46e3-9119-aa947d00b348",
         "971c8ce2-d77c-41b2-a5a0-f78be619af9b",
-        "ea050f44-c4a6-4689-838b-5cdf21ecaa28"
+        "ea050f44-c4a6-4689-838b-5cdf21ecaa28",
+        "7ea59f9c-6727-4323-be50-bc5cff2f35f7"
     ],
     "tutorial": ""
 }

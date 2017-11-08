@@ -8,6 +8,9 @@ if(keyboard_check_pressed(ord("G"))) {
 if(keyboard_check_pressed(ord("H"))) {
 	instance_create_depth(mouse_x, mouse_y, -1, oApple);
 }
+if(keyboard_check_pressed(ord("J"))) {
+	instance_create_depth(mouse_x, mouse_y, -1, oOrange);
+}
 
 if(gridEnabled)	{
 	draw_set_alpha(.5);

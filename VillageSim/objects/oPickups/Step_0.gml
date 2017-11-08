@@ -8,6 +8,7 @@ if(instance_exists(oPlayer)) {
 		move_towards_point(oPlayer.x, oPlayer.y, moveSpeed);
 		
 		if(distance_to_object(oPlayer) < closeToPlayer_range) {
+			AddToInventory();
 			instance_destroy();
 		}
 		

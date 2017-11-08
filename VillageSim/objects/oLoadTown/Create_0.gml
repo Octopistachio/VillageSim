@@ -3,6 +3,7 @@
 ///DS_Maps
 global.level_ds_map = ds_map_create(); //Holds all other maps
 global.tiles_ds_map = ds_map_create(); //The map of each tile
+global.inventory_ds_map = ds_map_create(); //All the items in the player's inventory
 
 global.tileSize = 64; //Size of each tile
 
@@ -22,6 +23,8 @@ room_instance_add(global.rMainTown, 0, 0, oInventory)
 room_instance_add(global.rMainTown, 0, 0, oDev)
 room_instance_add(global.rMainTown, 0, 0, oCamera)
 
+file_delete(working_directory + "level.dat") //DEBUGGING
+
 if(!file_exists(working_directory + "level.dat")) { //If the town has not been created
 	
 	show_debug_message("level.dat file not found!");
@@ -29,15 +32,13 @@ if(!file_exists(working_directory + "level.dat")) { //If the town has not been c
 	
 	instance_create_depth(0, 0, 0, oCreateTown);
 	
-	ds_map_secure_save(global.level_ds_map, working_directory + "level.dat");
-	ds_map_add_map(global.level_ds_map, "tiles", global.tiles_ds_map); //Add the tiles map to the level map
+	SaveMaps();
 }
 else {
 	show_debug_message("level.dat was found at: " + string(working_directory + "level.dat"));
 	
-	global.level_ds_map = ds_map_secure_load(working_directory + "level.dat");
-	global.tiles_ds_map = ds_map_find_value(global.level_ds_map, "tiles");
-	
+	LoadMaps();
+
 	instance_create_depth(0, 0, 0, oRebuildTown);
 }
 

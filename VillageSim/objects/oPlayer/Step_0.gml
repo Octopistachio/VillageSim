@@ -1,3 +1,9 @@
+if(global.paused) {
+	hspeed = 0;
+	vspeed = 0;
+	exit;
+}
+
 ///Movement code
 
 //Check if outside the room

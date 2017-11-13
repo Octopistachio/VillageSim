@@ -1,5 +1,5 @@
 /// @description Highlight green over tiles
 
-HighlightPlaceableTiles();
+if(!global.paused) HighlightPlaceableTiles();
 draw_self(); //Draw the player
 

@@ -1,5 +1,7 @@
 ///@description Runs when loading into main town
 
+global.paused = false; //Whether or not the game is paused
+
 ///DS Maps/Lists
 global.level_ds_map = ds_map_create(); //Holds all other maps
 global.tiles_ds_map = ds_map_create(); //The map of each tile
@@ -42,6 +44,8 @@ else {
 	instance_create_depth(0, 0, 0, oRebuildTown);
 }
 
-
+if(!file_exists(working_directory + "options.ini"))
+	WriteNewConfig();
+LoadConfig();
 
 room_goto(global.rMainTown);

@@ -1,0 +1,21 @@
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (index): Hooks the specified command /// @function  
+/// @param index
+
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (index):/// @function  
+/// @param index
+
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (index, param = 0):/// @function  
+/// @param index
+/// @param  param = 0
+
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (command): Returns whether the given command is currently available./// @function  
+/// @param command
+
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (command, status:bool): Enables/disables the command. Returns -1 if not possible./// @function  
+/// @param command
+/// @param  status:bool

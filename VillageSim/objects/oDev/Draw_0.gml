@@ -1,16 +1,22 @@
+if(keyboard_check(vk_backspace))
+	game_end();	
+
+
 if(keyboard_check_pressed(ord("G"))) {
-	if(!gridEnabled)
-		gridEnabled = true;
-	else
-		gridEnabled = false;
+	if(!gridEnabled) gridEnabled = true;
+	else gridEnabled = false;
 }
 
-if(keyboard_check_pressed(ord("H"))) {
+
+if(keyboard_check(ord("H")))
 	instance_create_depth(mouse_x, mouse_y, -1, oApple);
-}
-if(keyboard_check_pressed(ord("J"))) {
+
+if(keyboard_check_pressed(ord("J")))
 	instance_create_depth(mouse_x, mouse_y, -1, oOrange);
-}
+	
+if(keyboard_check_pressed(ord("K")))
+	Debug_FillInventory();
+
 
 if(gridEnabled)	{
 	draw_set_alpha(.5);

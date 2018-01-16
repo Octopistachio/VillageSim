@@ -6,10 +6,12 @@ var obj_prop = []; //The properties of the object
 
 for(var i = 0; i < oInventory.inventorySlots; i++) { //For each inventory slot
 		
-	if(i % 2 == 0) obj_prop[0] = "oApple";
-	else obj_prop[0] = "oOrange";
+	if(i mod 2 == 0)
+		obj_prop[0] = "oApple";
+	else
+		obj_prop[0] = "oOrange";
 	
-	obj_prop[1] = round(random_range(1,99));
+	obj_prop[1] = oInventory.stack_max;
 	
 	ds_list_insert(inv, i, obj_prop);
 	

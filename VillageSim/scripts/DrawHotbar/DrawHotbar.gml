@@ -1,4 +1,6 @@
 /*Hotbar Variables*/
+var inv = global.inventory_ds_list;
+
 var win_height = display_get_gui_height(); //The height of the window
 var win_width = display_get_gui_width(); //The width of the window
 
@@ -23,10 +25,15 @@ for(var i = 1; i < slots_wide; i++) { //For each item in the hotbar
 }
 
 /*Draw Hotbar Items*/
-if(!ds_list_empty(global.inventory_ds_list)) { //If the list isn't empty
-	for(var i = 0; i < slots_wide; i++) { //For each item in the hotbar
+var items_to_draw = 0;
+if(ds_list_size(inv) > slots_wide) items_to_draw = slots_wide;
+else items_to_draw = ds_list_size(inv);
+	
 
-		var current_obj_prop = global.inventory_ds_list[| i]; //Get the item in the current index
+if(!ds_list_empty(inv)) { //If the list isn't empty
+	for(var i = 0; i < items_to_draw; i++) { //For each item in the hotbar
+
+		var current_obj_prop = inv[| i]; //Get the item in the current index
 		var current_obj_name = current_obj_prop[0]; //Get the item's name
 		var current_obj_amount = current_obj_prop[1] //Get the item's amount
 		var current_obj_index = asset_get_index(current_obj_name); //Get the item's index

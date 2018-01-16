@@ -48,4 +48,5 @@ if(!file_exists(working_directory + "options.ini"))
 	WriteNewConfig();
 LoadConfig();
 
+WriteTrees();
 room_goto(global.rMainTown);

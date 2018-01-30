@@ -8,11 +8,11 @@ var slots_total = oInventory.inventorySlots;
 var slots_wide = oInventory.hotBarSlots; //Width of the inventory grid
 var slots_high = slots_total / slots_wide; //Height of the inventory grid
 
-var inv_height = 64*slots_high + (slots_high-1); //The height of the inventory
-var inv_width = 64*slots_wide + (slots_wide-1); //The width of the inventory
+inv_height = 64*slots_high + (slots_high-1); //The height of the inventory
+inv_width = 64*slots_wide + (slots_wide-1); //The width of the inventory
 
-var invBorder_x = (win_width - inv_width) / 2; //The border between the left and right side of the window and the inventory
-var invBorder_y = 64 //The border between the bottom of the window and the inventory
+invBorder_x = (win_width - inv_width) / 2; //The border between the left and right side of the window and the inventory
+invBorder_y = 64 //The border between the bottom of the window and the inventory
 
 
 draw_set_color(c_blue); //The color of the inventory

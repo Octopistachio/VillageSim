@@ -138,7 +138,7 @@
             "Key": "1ed21c35-ba5e-4db5-8932-44b6e489d567",
             "Value": {
                 "id": "c069b1cb-000c-4e03-ba9f-0c955e7b57d7",
-                "resourcePath": "scripts\\CheckClick\\CheckClick.yy",
+                "resourcePath": "scripts\\SelectSlot\\SelectSlot.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -220,6 +220,14 @@
                 "id": "4c83c22d-0d6a-4ec2-9adc-5a7af7cffcac",
                 "resourcePath": "views\\47a8144f-4ff5-4a54-adc3-2c8dab1f67ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4cf02564-ee5d-4a92-922b-80df0380ebcd",
+            "Value": {
+                "id": "04978730-5b0d-4412-a2b6-adabf3ac63bf",
+                "resourcePath": "sprites\\sCursor\\sCursor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -530,7 +538,7 @@
             "Key": "c436a78b-2d66-43be-a173-eb202dc0bbd9",
             "Value": {
                 "id": "8fcb9043-8d68-48ba-9aa3-0ac7c53f0e35",
-                "resourcePath": "sprites\\Tree\\Tree.yy",
+                "resourcePath": "sprites\\sTree\\sTree.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -743,10 +751,10 @@
         "f55d4e05-2363-4b17-a0ed-406a67cc4ddd",
         "d3cd2322-82d9-43f3-8b93-6c47da87f1cf",
         "cb24779f-05b7-48a6-b840-df276c718b72",
+        "38519389-d0e9-4ffe-a90a-47100ad11900",
         "43622f33-7959-49c2-83a6-b74c3e45c029",
         "1cb5774a-725f-44ff-a4aa-293059d3d017",
-        "d8c09089-584f-436d-85ea-a90cba18a62f",
-        "38519389-d0e9-4ffe-a90a-47100ad11900"
+        "d8c09089-584f-436d-85ea-a90cba18a62f"
     ],
     "tutorial": ""
 }

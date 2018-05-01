@@ -1,6 +1,8 @@
-///@description Runs when loading into main town
+///@description Runs when loading into main town or when booting the game
 
 global.paused = false; //Whether or not the game is paused
+window_set_cursor(cr_none);
+cursor_sprite = sCursor;
 
 ///DS Maps/Lists
 global.level_ds_map = ds_map_create(); //Holds all other maps

@@ -5,12 +5,9 @@ var town = global.rMainTown
 var tilesHigh = oTownGeneration.terrainTilesHigh;
 var tilesWide = oTownGeneration.terrainTilesWide;
 
-for(var i = 0; i < oTownGeneration.terrainTilesHigh; i++) { //For each column in the room
-	for(var j = 0; j < oTownGeneration.terrainTilesWide; j++) { //For each row in the room
-	
-		
-		var tile_x = ds_grid_get(oTownGeneration.terrainGridBottomLeft_x, i, j); //Get the current tile's x
-		var tile_y = ds_grid_get(oTownGeneration.terrainGridBottomLeft_y, i, j); //Get the current tile's y
+//Create the first layer, the ground
+for(var i = 0; i < tilesHigh; i++) { //For each column in the room
+	for(var j = 0; j < tilesWide; j++) { //For each row in the room
 			
 		var tile_obj = pointer_null; //The tile that was picked
 		

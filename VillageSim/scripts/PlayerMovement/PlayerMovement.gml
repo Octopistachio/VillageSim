@@ -65,21 +65,7 @@ if(movingRight) {
 	hspeed = moveSpeed;
 }
 
-//Horizontal Collision
-if(place_meeting(x + hspeed, y, oWaterTile)) {
-	while(!place_meeting(x + sign(hspeed), y, oWaterTile)) {
-		x += sign(hspeed)	
-	}
-	hspeed = 0;
-}
-
-//Vertical Collision
-if(place_meeting(x, y + vspeed, oWaterTile)) {
-	while(!place_meeting(x, y + sign(vspeed), oWaterTile)) {
-		y += sign(vspeed)	
-	}
-	vspeed = 0;
-}
+PlayerCollision();
 
 //Stopped
 if(!keyboard_check(upControl) && !keyboard_check(downControl) && 

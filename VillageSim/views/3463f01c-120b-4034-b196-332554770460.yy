@@ -4,12 +4,11 @@
     "mvc": "1.1",
     "name": "3463f01c-120b-4034-b196-332554770460",
     "children": [
-        "5515758f-775f-493e-9cff-be54aa8d37bc",
-        "1681b5f0-19fa-4f26-8bb9-1ad039da8b71",
-        "fbe4d7b7-da1f-4de4-9ed2-ddbeea995783"
+        "e96d85c6-addf-440a-a97c-af26f99b86e9",
+        "707ac233-659d-4a33-8151-b2ca9eadc4b0"
     ],
     "filterType": "GMObject",
-    "folderName": "Terrain Tiles",
+    "folderName": "Tiles",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

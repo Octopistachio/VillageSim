@@ -9,5 +9,6 @@ room_instance_add(town, 0, 0, oTownGeneration);
 room_instance_add(town, playerSpawn_x, playerSpawn_y, oPlayer); //Spawn the player in the center
 
 ReadTiles();
+ReadNaturalElements();
 
 instance_destroy(); //Destroy itself once creation is done.

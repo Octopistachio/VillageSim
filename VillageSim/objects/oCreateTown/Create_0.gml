@@ -11,4 +11,7 @@ room_instance_add(town, playerSpawn_x, playerSpawn_y, oPlayer); //Spawn the play
 WriteTiles();
 ReadTiles();
 
+WriteNaturalElements();
+ReadNaturalElements();
+
 instance_destroy(); //Destroy itself once creation is done.

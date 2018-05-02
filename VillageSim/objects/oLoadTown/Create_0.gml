@@ -1,5 +1,6 @@
 ///@description Runs when loading into main town or when booting the game
 
+instance_create_depth(room_width, room_height, 0, oLoadingAnimation);
 global.paused = false; //Whether or not the game is paused
 window_set_cursor(cr_none);
 cursor_sprite = sCursor;
@@ -7,17 +8,19 @@ cursor_sprite = sCursor;
 ///DS Maps/Lists
 global.level_ds_map = ds_map_create(); //Holds all other maps
 global.tiles_ds_map = ds_map_create(); //The map of each tile
+global.natural_elements_ds_map = ds_map_create(); //The map of each tree, rock, flower, etc.
 global.inventory_ds_list = ds_list_create(); //All the items in the player's inventory
 
 global.tileSize = 64; //Size of each tile
 
-var roomTiles= 25; //Numbers of tiles wide/high the room is
+var roomTiles= 24; //Numbers of tiles wide/high the room is
 global.mainTownWidth = global.tileSize * roomTiles; //Width of the town room
 global.mainTownHeight = global.tileSize * roomTiles; //Height of the town room
 
 global.rMainTown = room_add(); //Create a the town room
 
 instance_create_depth(0, 0, 0, oTownGeneration);
+
 
 room_set_width(global.rMainTown, global.mainTownWidth); //Set the width of the town room
 room_set_height(global.rMainTown, global.mainTownHeight); //Set the height of the town room
@@ -50,5 +53,4 @@ if(!file_exists(working_directory + "options.ini"))
 	WriteNewConfig();
 LoadConfig();
 
-WriteTrees();
 room_goto(global.rMainTown);

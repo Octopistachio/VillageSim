@@ -1,9 +1,9 @@
-/// @description Runs if a pickup is near the player
 
+///Runs if a pickup is near the player
 if(instance_exists(oPlayer)) { //If the player exists
 
 	if(distance_to_object(oPlayer) < range) { //If the player is in range of the object
-		if(IsFull() == false) { //If the inventory is not full
+		if(SlotAvailable()) { //If the inventory is not full
 			move_towards_point(oPlayer.x, oPlayer.y, moveSpeed); //Move towards the player
 		
 			if(distance_to_object(oPlayer) < closeToPlayer_range) { //If the object is close enough to the player
@@ -12,7 +12,7 @@ if(instance_exists(oPlayer)) { //If the player exists
 			}
 		}
 		else { //If the inventory IS full
-			show_debug_message("Cannot pick up " + object_get_name(self.object_index) + " because inventory is full!");	
+			show_debug_message("Cannot pick up " + object_get_name(self.object_index) + " because there is no space!");	
 		}
 	}
 

@@ -1,3 +1,4 @@
+SetDepth();
 
 ///Runs if a pickup is near the player
 if(instance_exists(oPlayer)) { //If the player exists

@@ -11,6 +11,5 @@ moveSpeed = 8;
 currentTileRow = 0;
 currentTileColumn = 0;
 
-depth = -99;
-
 CurrentPlayerTile();
+SetDepth();

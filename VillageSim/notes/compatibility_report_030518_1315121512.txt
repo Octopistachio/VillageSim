@@ -1,0 +1,9 @@
+Converting GML script: ${project_dir}\scripts\button_pressed\button_pressed.gml
+Converted description /// @description button_pressed(x, y, sprite_index)/// @param x
+/// @param  y
+/// @param  sprite_index
+
+Converting GML script: ${project_dir}\scripts\button_pressed_circle\button_pressed_circle.gml
+Converted description /// @description button_pressed_circle(x, y, sprite_index)/// @param x
+/// @param  y
+/// @param  sprite_index

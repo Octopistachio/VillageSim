@@ -29,6 +29,7 @@ room_set_persistent(global.rMainTown, false); //Make the town room not persisten
 room_instance_add(global.rMainTown, 0, 0, oInventory)
 room_instance_add(global.rMainTown, 0, 0, oDev)
 room_instance_add(global.rMainTown, 0, 0, oCamera)
+room_instance_add(global.rMainTown, 0, 0, oClock)
 
 file_delete(working_directory + "level.dat") //DEBUGGING
 

@@ -5,12 +5,21 @@ if(keyboard_check_pressed(vk_escape)) {
 	else global.paused = true;
 }
 
+var inst = noone;
+
 if(global.paused) {
 	DrawLargeInventory();
 	
-	SelectLargeInventorySlot();
+	inst = instance_create_depth(1000, 1000, -999, oApple)
+	
+	//SelectLargeInventorySlot();
 }
 else {	
+	if(instance_exists(inst)) {
+		with(inst) {
+			instance_destroy();	
+		}
+	}
 	DrawHotbar();
 	DrawHotbarSelector();
 	

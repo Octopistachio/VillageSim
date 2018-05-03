@@ -26,3 +26,4 @@ else if(y >= room_height - oPlayer.sprite_height/2) {
 
 CurrentPlayerTile();
 PlayerMovement();
+SetDepth();

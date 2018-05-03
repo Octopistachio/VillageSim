@@ -1,14 +1,14 @@
 {
-    "id": "12fc802b-ea35-473a-9fa3-c3db4cbc6e3c",
+    "id": "73e54adf-5145-4c96-9110-c840d84dfec2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oOrange",
+    "name": "oFoodParent",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "73e54adf-5145-4c96-9110-c840d84dfec2",
+    "parentObjectId": "29d9196d-fc49-4035-899b-ea51454d55e3",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "adcc01e1-090a-42e5-bfa9-5410fad91f13",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

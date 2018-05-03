@@ -3,6 +3,11 @@ var movingDown = false;
 var movingLeft = false;
 var movingRight = false;
 
+var upControl = global.upControl;
+var downControl = global.downControl;
+var leftControl = global.leftControl;
+var rightControl  = global.rightControl;
+
 //Up
 if(keyboard_check(upControl)) movingUp = true;
 

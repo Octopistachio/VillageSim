@@ -38,7 +38,9 @@ if(!foundMatch) { //If the object is NOT in the player's inventory
 	
 	obj_prop[0] = obj_name; //Set the item's first property to it's name
 	obj_prop[1] = 1; //Set the item's second property to 1
+	obj_prop[2] = string(object_get_name(object_get_parent(object_get_parent(asset_get_index(obj_name))))); //Set the item's third property to its item type
 	ds_list_add(inv, obj_prop); //Add it to the player's inventory
+	
 }
 
 show_debug_message("The player now has " + string(obj_amount) + " " + obj_name + "(s)") ;

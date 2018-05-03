@@ -6,17 +6,18 @@ var win_width = display_get_gui_width(); //The width of the window
 
 var slots_wide = oInventory.hotBarSlots; //Width of the hotbar grid
 
-hotBar_height = 64; //The height of the hotbar
-hotBar_width = 64*slots_wide + (slots_wide-1); //The width of the hotbar
+var hotBar_height = 64; //The height of the hotbar
+var hotBar_width = 64*slots_wide + (slots_wide-1); //The width of the hotbar
 
-hotBarBorder_x = (win_width - hotBar_width) / 2; //The border between the left and right side of the window and the hotbar
-hotBarBorder_y = 64 //The border between the bottom of the window and the hotbar
+var hotBarBorder_x = (win_width - hotBar_width) / 2; //The border between the left and right side of the window and the hotbar
+var hotBarBorder_y = 64 //The border between the bottom of the window and the hotbar
 
 draw_set_color(c_red); //The color of the hotbar
 draw_set_alpha(1); //The alpha of the hotbar
-draw_rectangle(hotBarBorder_x, win_height - hotBar_height - hotBarBorder_y,  win_width - hotBarBorder_x, win_height - hotBarBorder_y, false);
 
 /*Draw Hotbar*/
+draw_rectangle(hotBarBorder_x, win_height - hotBar_height - hotBarBorder_y,  win_width - hotBarBorder_x, win_height - hotBarBorder_y, false);
+
 for(var i = 1; i < slots_wide; i++) { //For each item in the hotbar
 		var line_x = hotBarBorder_x + (hotBar_width/slots_wide) * i;
 		var line_y = win_height - hotBarBorder_y;

@@ -1,8 +1,8 @@
 {
-    "id": "1ed21c35-ba5e-4db5-8932-44b6e489d567",
+    "id": "49e947d2-87b4-4435-8ece-4d7dfc43003b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "SelectSlot",
+    "name": "SelectedItem",
     "IsCompatibility": false,
     "IsDnD": false
 }

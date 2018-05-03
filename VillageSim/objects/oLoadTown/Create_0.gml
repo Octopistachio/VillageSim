@@ -49,6 +49,8 @@ else {
 	instance_create_depth(0, 0, 0, oRebuildTown);
 }
 
+
+ControlDefaults();
 if(!file_exists(working_directory + "options.ini"))
 	WriteNewConfig();
 LoadConfig();

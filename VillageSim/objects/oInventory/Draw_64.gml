@@ -7,21 +7,25 @@ if(keyboard_check_pressed(vk_escape)) {
 
 if(global.paused) {
 	DrawLargeInventory();
+	
+	SelectLargeInventorySlot();
 }
 else {	
 	DrawHotbar();
 	DrawHotbarSelector();
-}
+	
+	selectedHotbarSlot = SelectHotbarSlot();
+	selectedItem_prop = SelectedItem();
 
-selectedHotbarSlot = SelectHotbarSlot();
-selectedItem_prop = SelectedItem();
-
-
-
-if(is_array(selectedItem_prop)) {
-	show_debug_message(object_get_name(selectedItem_prop[2]))
-	if(object_get_name(selectedItem_prop[2]) == "oFoodParent") {
-		show_debug_message("test!")	
+	if(is_array(selectedItem_prop)) {
+		
+		switch(asset_get_index(selectedItem_prop[2])) {
+		
+			case oFoodParent:
+				break;
+			case oToolParent:
+				break;
+		
+		}
 	}
 }
-

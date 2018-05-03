@@ -1,4 +1,5 @@
 /*Inventory Variables*/
+
 var win_height = display_get_gui_height(); //The height of the window
 var win_width = display_get_gui_width(); //The width of the window
 
@@ -64,6 +65,7 @@ if(!ds_list_empty(inv)) { //If the list isn't empty
 		if(sprite_exists(current_obj_sprite)) { //If the sprite exists
 			var sprite_x = invBorder_x + (inv_width/slots_wide) * (currentCol+1) - (inv_width/slots_wide)/2;
 			var sprite_y = win_height - invBorder_y + (64 * currentRow) - inv_height - 32;
+			
 			draw_sprite_ext(current_obj_sprite, 0, sprite_x, sprite_y, 4, 4, 0, c_white, 1);
 				
 			if(current_obj_amount > 1) { //If there is more than one item

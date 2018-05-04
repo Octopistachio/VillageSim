@@ -9,18 +9,14 @@ var tilesWide = oTownGeneration.terrainTilesWide;
 for(var i = 0; i < tilesHigh; i++) { //For each column in the room
 	for(var j = 0; j < tilesWide; j++) { //For each row in the room
 		
-		var element_obj = pointer_null; //The tile that was picked
-		
 		var tile_obj;
 		if(ds_map_exists(global.tiles_ds_map, string(i) + string(j)))
 			tile_obj = ds_map_find_value(global.tiles_ds_map, string(i) + string(j));
 		else
 			tile_obj = "oGrassTile"
 		
-		var elementPicker = random_range(0, 100)
 		
-		if(elementPicker < 10)
-			element_obj = oTree;
+		var element_obj = ChooseNaturalElement();
 		
 
 		if(element_obj != pointer_null && tile_obj == "oGrassTile") {
@@ -29,9 +25,5 @@ for(var i = 0; i < tilesHigh; i++) { //For each column in the room
 			
 			show_debug_message("Writing to Natural Elements Row " + string(i) + " Natural Elements Col " + string(j) + " Name: " +  object_get_name(element_obj));
 		}
-		
-		
-	
 	}
-
 }

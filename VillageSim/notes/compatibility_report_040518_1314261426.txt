@@ -1,0 +1,19 @@
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (index): Hooks the specified command /// @param index
+
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (index):/// @param index
+
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (index, param = 0):/// @param index
+/// @param  param = 0
+
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (command): Returns whether the given command is currently available./// @param command
+
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (command, status:bool): Enables/disables the command. Returns -1 if not possible./// @param command
+/// @param  status:bool
+
+Converting GML script: window_command_hook.gml
+Converted description /// @description  (stayontop:bool): Allows to set a window to show on top of the rest like with GM8./// @param stayontop:bool

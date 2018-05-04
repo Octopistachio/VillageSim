@@ -1,5 +1,5 @@
 {
-    "id": "bc02df74-b120-4e9e-a46c-95b216a29a12",
+    "id": "fff9511d-6e21-48a7-a4ad-029a30b8d62c",
     "modelName": "GMExtension",
     "mvc": "1.0",
     "name": "window_command_hook",
@@ -18,12 +18,12 @@
     "author": "",
     "classname": "",
     "copyToTargets": 113497714299118,
-    "date": "2017-41-08 11:11:11",
+    "date": "2018-14-04 01:05:25",
     "description": "",
     "extensionName": "",
     "files": [
         {
-            "id": "30ee8227-c327-484a-8b3b-a6cbbbbebb1a",
+            "id": "55e8ac1b-341e-425f-91bb-5893a9ac169c",
             "modelName": "GMExtensionFile",
             "mvc": "1.0",
             "ProxyFiles": [
@@ -37,7 +37,7 @@
             "final": "window_command_cleanup",
             "functions": [
                 {
-                    "id": "06783b42-3d6a-4401-825c-3e50b2e9b89d",
+                    "id": "c5dac88c-5b9b-4858-83b3-6322820b11bb",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 3,
@@ -54,7 +54,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "08d8ad8e-e144-419e-96d4-d31af129077e",
+                    "id": "8adcf5f7-6fef-413b-be8e-83db8602de3e",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 0,
@@ -69,7 +69,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "d6a4419a-8fed-46d2-a6c7-aff468d87566",
+                    "id": "026ef286-ef13-4df7-b537-127c11dd108b",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 1,
@@ -84,7 +84,22 @@
                     "returnType": 2
                 },
                 {
-                    "id": "514f2e4e-12e0-4087-9c29-c4a98e8e6564",
+                    "id": "2fed1dfa-62af-4324-ba3c-77a48045a82c",
+                    "modelName": "GMExtensionFunction",
+                    "mvc": "1.0",
+                    "argCount": 1,
+                    "args": [
+                        1
+                    ],
+                    "externalName": "window_command_bind_raw",
+                    "help": "",
+                    "hidden": false,
+                    "kind": 11,
+                    "name": "window_command_bind_raw",
+                    "returnType": 2
+                },
+                {
+                    "id": "a8babb67-89fd-4e96-82bd-47e8554e9b3d",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 2,
@@ -100,7 +115,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "14ccd9fa-2372-45b5-83eb-3a184d4da7b0",
+                    "id": "0b2241ae-fb71-4a8d-968e-edc7273b2e25",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 1,
@@ -115,7 +130,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "9874fbf6-739c-43d9-9979-9300c88fdd6d",
+                    "id": "396f206d-d45c-4cf0-b3cc-f39df33152b8",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 2,
@@ -131,7 +146,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "4085b5cf-2895-4347-9428-e8bc7ab05084",
+                    "id": "a0d7591b-e1f0-42de-9f72-9dd7757357a8",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 3,
@@ -148,7 +163,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "2590dd80-328b-4a85-91e1-0bad35b39a58",
+                    "id": "f0411a53-bd71-4a65-98e0-03193ff71997",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 1,
@@ -163,18 +178,19 @@
                     "returnType": 2
                 },
                 {
-                    "id": "1246d04d-362b-44e1-bf5b-179ca46a9341",
+                    "id": "7f11ec72-f198-49a3-a4bd-260779cd7198",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
-                    "argCount": 1,
+                    "argCount": 2,
                     "args": [
-                        1
+                        1,
+                        2
                     ],
-                    "externalName": "window_command_bind_raw",
+                    "externalName": "window_set_topmost_raw",
                     "help": "",
                     "hidden": false,
                     "kind": 11,
-                    "name": "window_command_bind_raw",
+                    "name": "window_set_topmost_raw",
                     "returnType": 2
                 }
             ],
@@ -187,7 +203,7 @@
             "uncompress": false
         },
         {
-            "id": "61c7978a-8d0e-40d8-8f80-66cef0c30281",
+            "id": "441febdb-6887-4d82-8cf4-a14882e8d3c9",
             "modelName": "GMExtensionFile",
             "mvc": "1.0",
             "ProxyFiles": [
@@ -195,7 +211,7 @@
             ],
             "constants": [
                 {
-                    "id": "a409d144-7967-445a-9f84-8e3567da1578",
+                    "id": "e8240a74-ce99-4692-a738-2ed5e9893a16",
                     "modelName": "GMExtensionConstant",
                     "mvc": "1.0",
                     "constantName": "window_command_close",
@@ -203,7 +219,7 @@
                     "value": "$F060"
                 },
                 {
-                    "id": "d091dcba-be73-488c-b290-d97477b08150",
+                    "id": "a3e99a06-9562-4293-a3ee-da7de72950e7",
                     "modelName": "GMExtensionConstant",
                     "mvc": "1.0",
                     "constantName": "window_command_maximize",
@@ -211,7 +227,7 @@
                     "value": "$F030"
                 },
                 {
-                    "id": "0a663621-03cb-42c5-a11c-a3340feb7cfd",
+                    "id": "1dcbc93d-a4af-4249-afc9-94703b0fb4c8",
                     "modelName": "GMExtensionConstant",
                     "mvc": "1.0",
                     "constantName": "window_command_minimize",
@@ -219,7 +235,7 @@
                     "value": "$F020"
                 },
                 {
-                    "id": "07876453-3707-49a5-a9e9-830b5a3e6980",
+                    "id": "645b03a1-7bff-4ec5-b063-f6769ae20d9f",
                     "modelName": "GMExtensionConstant",
                     "mvc": "1.0",
                     "constantName": "window_command_restore",
@@ -227,15 +243,7 @@
                     "value": "$F120"
                 },
                 {
-                    "id": "7a1d2d9c-7805-405e-84ff-e39e8aa38d6c",
-                    "modelName": "GMExtensionConstant",
-                    "mvc": "1.0",
-                    "constantName": "window_command_winmenu",
-                    "hidden": false,
-                    "value": "$F090"
-                },
-                {
-                    "id": "90916686-e04a-49c6-8c52-5272f65e55b5",
+                    "id": "5ff95bd3-9cbf-43c6-922e-7d46f897c4a9",
                     "modelName": "GMExtensionConstant",
                     "mvc": "1.0",
                     "constantName": "window_command_resize",
@@ -243,7 +251,7 @@
                     "value": "$F000"
                 },
                 {
-                    "id": "ca7129a8-7a37-45cd-97ac-e5a28f0feebb",
+                    "id": "51036803-4453-4007-9479-e27866db95c3",
                     "modelName": "GMExtensionConstant",
                     "mvc": "1.0",
                     "constantName": "window_command_move",
@@ -256,7 +264,7 @@
             "final": "",
             "functions": [
                 {
-                    "id": "9fa90ccc-15b6-4cec-9d12-8177fb819d05",
+                    "id": "3dc3a17a-38c3-45f1-a5d1-4d503c50c7ef",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 0,
@@ -271,7 +279,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "9a94fd43-831a-475b-ac92-3914d4f2ae2d",
+                    "id": "0b1b6b76-bd7d-489c-bfd8-cb1615c8a575",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 1,
@@ -286,7 +294,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "337d3d00-9950-4709-9462-fd1ab6b1d462",
+                    "id": "97ee2db8-6cd1-4122-96ac-17c055e36b01",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 1,
@@ -301,7 +309,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "a8fe3e75-5c4e-4faf-a612-17aa264743b9",
+                    "id": "9978f897-cb7b-43fc-b6f1-39a5b1c6e38f",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": -1,
@@ -316,7 +324,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "ec8b022e-92bf-4b4e-8e37-faee2004fe15",
+                    "id": "18a7567b-ec86-4933-b172-7a2bc049ab54",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 1,
@@ -331,7 +339,7 @@
                     "returnType": 2
                 },
                 {
-                    "id": "f2be0e55-89f5-4e61-9b29-be6de3966251",
+                    "id": "ec079325-70d4-45dd-8f0d-c9bd2775b2a9",
                     "modelName": "GMExtensionFunction",
                     "mvc": "1.0",
                     "argCount": 2,
@@ -344,6 +352,21 @@
                     "hidden": false,
                     "kind": 11,
                     "name": "window_command_set_active",
+                    "returnType": 2
+                },
+                {
+                    "id": "57992729-ddb6-4803-9416-12bc5a336148",
+                    "modelName": "GMExtensionFunction",
+                    "mvc": "1.0",
+                    "argCount": 1,
+                    "args": [
+                        2
+                    ],
+                    "externalName": "window_set_topmost",
+                    "help": "window_set_topmost(stayontop:bool) : Allows to set a window to show on top of the rest like with GM8.",
+                    "hidden": false,
+                    "kind": 11,
+                    "name": "window_set_topmost",
                     "returnType": 2
                 }
             ],

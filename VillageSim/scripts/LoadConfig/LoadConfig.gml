@@ -64,5 +64,3 @@ global.hotbarSlot7 = ord(hotbarSlot7);
 global.hotbarSlot8 = ord(hotbarSlot8);
 global.hotbarSlot9 = ord(hotbarSlot9);
 global.hotbarSlot10 = ord(hotbarSlot10);
-
-

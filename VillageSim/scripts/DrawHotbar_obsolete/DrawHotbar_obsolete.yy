@@ -1,8 +1,8 @@
 {
-    "id": "4a7524b9-acd2-4e0c-9ae4-6a8d419e52a7",
+    "id": "7a007458-d740-4140-8ada-35a3a2d03252",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "DrawHotbarSelector",
+    "name": "DrawHotbar_obsolete",
     "IsCompatibility": false,
     "IsDnD": false
 }

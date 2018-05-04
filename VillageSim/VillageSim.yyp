@@ -215,19 +215,19 @@
             }
         },
         {
-            "Key": "3c45d717-584a-41df-b3db-d621668ad391",
-            "Value": {
-                "id": "2a8fca0a-4d9f-4b7c-95ec-cc92e3e409f0",
-                "resourcePath": "datafiles_yy\\license.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "3e95e83b-01f3-417a-a7cc-ecd3ae820f4d",
             "Value": {
                 "id": "7c674956-2c8f-4c06-ae42-2f471de8d244",
                 "resourcePath": "views\\3e95e83b-01f3-417a-a7cc-ecd3ae820f4d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40413885-8285-4788-8a41-862546cf2624",
+            "Value": {
+                "id": "1754ff4f-754e-4d24-ab84-3cbe891112a8",
+                "resourcePath": "scripts\\DrawHotbar\\DrawHotbar.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -266,7 +266,7 @@
             "Key": "4a7524b9-acd2-4e0c-9ae4-6a8d419e52a7",
             "Value": {
                 "id": "c3d5c723-b35f-4481-8be4-ab2aad955bed",
-                "resourcePath": "scripts\\DrawHotbarSelector\\DrawHotbarSelector.yy",
+                "resourcePath": "scripts\\DrawHotbarSelector_obsolete\\DrawHotbarSelector_obsolete.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -284,6 +284,14 @@
                 "id": "48a5d660-be5c-4d06-bc81-33e4e1f1f6f3",
                 "resourcePath": "sprites\\sDebug_NotFound\\sDebug_NotFound.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "522f13c7-7631-4523-8e84-31a8fa0b1156",
+            "Value": {
+                "id": "1763d43f-6be8-40cf-9f4a-3f072c547076",
+                "resourcePath": "views\\522f13c7-7631-4523-8e84-31a8fa0b1156.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -439,18 +447,10 @@
             }
         },
         {
-            "Key": "78590f65-b23f-4fda-bad1-bf5651b6303b",
-            "Value": {
-                "id": "cf1e237b-2829-4dec-a25c-19f6c81c34ed",
-                "resourcePath": "datafiles_yy\\Manual_NailBuster_GUI_Widget_Library_v13.pdf.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "7a007458-d740-4140-8ada-35a3a2d03252",
             "Value": {
                 "id": "369e78dc-51eb-4334-b245-19f006cace91",
-                "resourcePath": "scripts\\DrawHotbar\\DrawHotbar.yy",
+                "resourcePath": "scripts\\DrawHotbar_obsolete\\DrawHotbar_obsolete.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -484,6 +484,14 @@
                 "id": "35d5f786-bc71-4878-b3b5-393c45bff39f",
                 "resourcePath": "scripts\\AddToInventory\\AddToInventory.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8341bad3-927d-4551-92a6-04c164d8b852",
+            "Value": {
+                "id": "4b9274d5-b7be-419c-b84a-741f4c557b98",
+                "resourcePath": "sprites\\sLargeInventory\\sLargeInventory.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -527,14 +535,6 @@
             }
         },
         {
-            "Key": "8e4803f5-e483-464b-a6de-a899fdbc4b44",
-            "Value": {
-                "id": "5d55b549-27a1-45cd-a181-9929ec7c2e99",
-                "resourcePath": "datafiles_yy\\NailBusterGUISamplev15.gmz.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "904cb7d0-f24c-4f47-9602-e1d3b52867b0",
             "Value": {
                 "id": "ded967b5-2dd5-4dad-b6ec-58299a8a0c60",
@@ -563,6 +563,14 @@
             "Value": {
                 "id": "3cdd0a89-751c-4cc1-88ce-fb6e532a9b4a",
                 "resourcePath": "sprites\\HumanMask\\HumanMask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9e5f8639-31ad-47ed-805f-84de2ba1fa16",
+            "Value": {
+                "id": "f0c2f15d-d34e-49eb-9c52-7c35948d6adf",
+                "resourcePath": "sprites\\sHotbar\\sHotbar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -815,14 +823,6 @@
             }
         },
         {
-            "Key": "d64a3168-f97f-4c56-8a78-3fcada5e6c79",
-            "Value": {
-                "id": "3c258044-696c-4750-982f-c5dbbd08c851",
-                "resourcePath": "datafiles_yy\\changelog.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "d69574d9-833b-48e5-9bac-391592f07056",
             "Value": {
                 "id": "4555c9e4-2c81-46f6-8a00-3c914f72081b",
@@ -852,6 +852,14 @@
                 "id": "7e3083f2-b1e3-44db-820d-66e1e212674f",
                 "resourcePath": "scripts\\WriteNaturalElements\\WriteNaturalElements.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "da4d1f78-77c9-455c-9801-07f986217f3d",
+            "Value": {
+                "id": "123f5abd-1e86-4843-a5f8-deb0ff92bed9",
+                "resourcePath": "views\\da4d1f78-77c9-455c-9801-07f986217f3d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1033,6 +1041,7 @@
         "893530a7-3edc-41ac-b9f6-75bd3320ed49",
         "7a007458-d740-4140-8ada-35a3a2d03252",
         "4a7524b9-acd2-4e0c-9ae4-6a8d419e52a7",
+        "40413885-8285-4788-8a41-862546cf2624",
         "f55d4e05-2363-4b17-a0ed-406a67cc4ddd",
         "d3cd2322-82d9-43f3-8b93-6c47da87f1cf",
         "cb24779f-05b7-48a6-b840-df276c718b72",

@@ -20,12 +20,11 @@ else {
 			instance_destroy();	
 		}
 	}
-	DrawHotbar();
-	DrawHotbarSelector();
 	
 	selectedHotbarSlot = SelectHotbarSlot();
 	selectedItem_prop = SelectedItem();
-
+	DrawHotbar();
+	
 	if(is_array(selectedItem_prop)) {
 		
 		switch(asset_get_index(selectedItem_prop[2])) {

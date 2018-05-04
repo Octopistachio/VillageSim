@@ -4,29 +4,29 @@ if(!global.paused) {
 
 	switch(keyboard_key) {
 		case global.hotbarSlot1:
-			slot = 1; break;
+			slot = 0; break;
 		case global.hotbarSlot2:
-			slot = 2; break;
+			slot = 1; break;
 		case global.hotbarSlot3:
-			slot = 3; break;
+			slot = 2; break;
 		case global.hotbarSlot4:
-			slot = 4; break;
+			slot = 3; break;
 		case global.hotbarSlot5:
-			slot = 5; break;
+			slot = 4; break;
 		case global.hotbarSlot6:
-			slot = 6; break;
+			slot = 5; break;
 		case global.hotbarSlot7:
-			slot = 7; break;
+			slot = 6; break;
 		case global.hotbarSlot8:
-			slot = 8; break;
+			slot = 7; break;
 		case global.hotbarSlot9:
-			slot = 9; break;
+			slot = 8; break;
 		case global.hotbarSlot10:
-			slot = 10; break;
+			slot = 9; break;
 	}
 	
 	if(slot != selectedHotbarSlot) {
-		show_debug_message("Selected hotbar slot " + string(slot));
+		show_debug_message("Selected hotbar slot " + string(slot + 1));
 		return slot;
 	}
 	else return selectedHotbarSlot;

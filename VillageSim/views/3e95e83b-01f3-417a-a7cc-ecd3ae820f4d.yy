@@ -9,7 +9,8 @@
         "cb24779f-05b7-48a6-b840-df276c718b72",
         "d9008986-f15d-49da-ac00-13bea9ad27cc",
         "a547550a-76e1-46d7-8caf-cf277da120a2",
-        "52bd7c12-bcfc-4791-b524-ec7556acb3e4"
+        "52bd7c12-bcfc-4791-b524-ec7556acb3e4",
+        "4f2eab00-b00e-4d10-a307-a0e2823cb5d3"
     ],
     "filterType": "GMScript",
     "folderName": "Terrain Generation",

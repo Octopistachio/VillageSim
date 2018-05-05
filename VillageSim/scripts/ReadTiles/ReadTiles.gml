@@ -22,4 +22,6 @@ for(var i = 0; i < oTownGeneration.terrainTilesHigh; i++) {
 
 }
 
+
+
 ds_map_add_map(global.level_ds_map, "tiles", global.tiles_ds_map); //Add the tiles map to the level map

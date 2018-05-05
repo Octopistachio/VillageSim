@@ -13,12 +13,8 @@ for(var i = 0; i < oTownGeneration.terrainTilesHigh; i++) {
 			tile_obj = ds_map_find_value(global.natural_elements_ds_map, string(i) + string(j));
 			room_instance_add(town, tile_x, tile_y, asset_get_index(tile_obj)); //Add the tile to the room
 			show_debug_message("Reading from Natural Elements Row " + string(i) + " Natural Elements Col " + string(j) + " Name: " + tile_obj);
-		}
-		
-		
-	
+		}	
 	}
-
 }
 
 ds_map_add_map(global.level_ds_map, "natural elements", global.natural_elements_ds_map); //Add the tiles map to the level map

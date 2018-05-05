@@ -13,7 +13,7 @@ global.inventory_ds_list = ds_list_create(); //All the items in the player's inv
 
 global.tileSize = 64; //Size of each tile
 
-var roomTiles= 24; //Numbers of tiles wide/high the room is
+var roomTiles = 32; //Numbers of tiles wide/high the room is
 global.mainTownWidth = global.tileSize * roomTiles; //Width of the town room
 global.mainTownHeight = global.tileSize * roomTiles; //Height of the town room
 

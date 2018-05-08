@@ -5,7 +5,8 @@
     "name": "37c8ca09-c95a-4438-9477-9df664b11a4b",
     "children": [
         "c436a78b-2d66-43be-a173-eb202dc0bbd9",
-        "ad1c27db-0905-4e90-b485-3cd8a4ea960b"
+        "ad1c27db-0905-4e90-b485-3cd8a4ea960b",
+        "80f95920-ad01-4e32-9c2f-888bc35ca379"
     ],
     "filterType": "GMSprite",
     "folderName": "Natural Elements",

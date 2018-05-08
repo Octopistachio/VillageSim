@@ -6,9 +6,7 @@ var obj_prop = []; //The properties of the object
 
 for(var i = 0; i < oInventory.inventorySlots; i++) { //For each inventory slot
 	
-	var j = i mod 2;
-	
-	if(j == 0)
+	if(i mod 2 == 0)
 		obj_prop[0] = "oApple";
 	else
 		obj_prop[0] = "oOrange";
